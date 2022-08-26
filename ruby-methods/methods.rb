@@ -1,7 +1,21 @@
+require 'pry'
 # Ruby Methods
 ## Q1 Write any simple Ruby Program to illustrate the defining and calling of method
+def greetings_method(name)
+    puts "Hallo, #{name}"
+end
+
+greetings_method('Sam')
+
+# binding.pry
 
 ## Q2 You have a string, "I love espresso", return the length of the string
+def string_length
+    str = "I love espresso".length
+    puts str
+end
+
+string_length
 
 ## Q3 Write a method where var1 and var2 are the parameters. Call the method. The statements to be executed are:
 #"Phase-1 was all about Introduction to Programming."
